@@ -1,0 +1,233 @@
+// GLOBAL // 
+body{
+    background-image: url('/img/bg.jpg');
+}
+label{font-size: 1.1rem;margin-bottom:0px;}
+input{font-size: large !important;}
+ul{list-style-type: none;}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+}
+.input-group{padding:5px}
+.input-label{
+    width:15%;
+    line-height: 2.2;
+}
+.hr-line-dashed {
+    border-top: 1px dashed #e7eaec;
+    color: #ffffff;
+    background-color: #ffffff;
+    height: 1px;
+    margin: 20px 0
+}
+table{
+    thead{
+        background:#5974d5;
+        color:white;
+    }
+    th{
+        font-size: 19px;
+    }
+    td{
+        font-size: 17px;
+    }
+}
+
+.btn-xs{font-size: 14px;padding:1px 5px;line-height: 1.5;}
+.show-span{display:inline-block;width:40%}
+.patient-btn{
+    width: 80%;color:white;background-color: #9ccc65; border:1px solid #8bb65a;
+    &:hover{
+        color:white;
+        background-color:#8bb65a;
+    }
+}
+.modal-lg{
+    max-width: 1190px;
+}
+body.modal-open {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.submit-btn{
+    background-color: #17a2b8;
+}
+
+#ui-datepicker-div ,.ui-datepicker {z-index:9999 !important;}
+// p{font-size: 20px;}
+// .modal-dialog{
+//     overflow-y: initial !important
+// }
+// .modal-body{
+//     height: 800px;
+//     overflow-y: auto;
+// }
+// END GLOBAL //
+
+  
+.main-sidebar{
+    z-index:unset
+}
+.wrapper{
+    direction: rtl;
+    text-align: start;
+    .content{
+        padding:20px 0.5rem;
+    }
+    .page-content{
+        // width: 80%;
+        // margin-right: 2%;
+        margin-right:2%;
+        margin-left:2%;
+    }
+    
+}
+aside{
+    background-color:rgb(59, 176, 195) !important;
+    a{
+        color:#fff !important;
+    }
+}
+.card{
+    .card-block{
+        padding:1.5rem;
+        // background: #3bb0c3;
+        color:#9d7100;
+        i{
+            font-size: 45px;
+            color:#9ccc65
+        }
+    }
+    .card-header{
+        h3,h4{
+            font-weight: bold;
+        }
+        .card-title{
+            color:white;
+            text-align: center;
+            font-size: 30px;
+            padding:5px;
+            margin-bottom: 0;
+        }
+    }
+    .page-title{
+        background-color: #17a2b8 !important;
+    }
+}
+
+.small-box .inner{
+    h3{
+        display:inline-block
+    }
+    i{
+        font-size:xxx-large;
+        float:left;    
+    }
+}
+.small-box:hover{
+    cursor: pointer;
+    transform:20px;
+}
+// nav form .form-control:hover{
+//     border: ;
+// }
+
+
+
+// TEETH
+
+g{
+    opacity:1;
+    background: lightblue;
+}
+
+.round-class,.butt-class{
+    fill:none;
+    stroke:#000000;
+    stroke-width:1;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none;
+}
+.round-class{
+    stroke-linecap:round;
+}
+.butt-class{
+    stroke-linecap:butt;
+}
+
+// slider
+
+.thumb-container{
+    height: 110px;
+    width:110px;
+    text-align: center;
+    margin: 30px;
+    border-bottom:1px solid #333;
+    opacity:.4;
+    cursor: pointer;
+    img{
+        height:105px;
+        width: 95px;
+    }
+}
+.img-container{
+    height:500px;
+    text-align: center;
+    margin: 20px;
+    img{
+        max-height: 100%;
+    }
+}
+.active-thumb{
+    opacity:1;
+}
+
+// end slider
+
+//datatable
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+    padding:2px;
+}
+table.dataTable.no-footer {
+    border-top: 1px solid #eee;
+}
+
+
+// Print Settings
+@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+
+.patientBtnContainer{
+    width:14.25%;
+}
+
+
+// Loader Gif
+
+#loading {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    opacity: 0.7;
+    background-color: #fff;
+    z-index: 99;
+    text-align: center;
+  }
+  
+  #loading-image {
+    position: absolute;
+    top: 35%;
+    left: 47%;
+    /* width: 120px; */
+    height: 12%;
+    z-index: 100;
+  }

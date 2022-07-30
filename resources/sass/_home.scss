@@ -1,0 +1,11 @@
+a{
+    text-decoration: none;
+    &:hover{
+        opacity:.8;
+        text-decoration: none;
+    }
+
+}
+.select2{
+    width:240px !important;
+}
